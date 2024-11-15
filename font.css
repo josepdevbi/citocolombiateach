@@ -218,3 +218,25 @@ body {
 	height: 110px;
 	float: left;
 }
+
+.user-info {
+    position: absolute; /* Posiciona el contenedor relativo a su primer contenedor posicionado (el header) */
+    top: 20px; /* Distancia desde la parte superior */
+    right: 20px; /* Distancia desde la parte derecha */
+    display: flex;
+    align-items: center;
+}
+
+/* Imagen del usuario */
+.user-image {
+    width: 30px; /* Tamaño pequeño para la imagen */
+    height: 30px;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    margin-right: 10px; /* Espacio entre la imagen y el nombre */
+}
+
+/* Nombre del usuario */
+.user-name {
+    color: #fff;
+    font-weight: bold;
+}

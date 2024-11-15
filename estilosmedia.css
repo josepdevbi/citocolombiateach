@@ -25,6 +25,7 @@
   }
   
   body {
+    display: flex;
     margin: 0;
     background-color: hsl(0, 0%, 98%);
     color: #0f0fcb;

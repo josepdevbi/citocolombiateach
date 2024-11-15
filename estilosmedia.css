@@ -11,3 +11,9 @@
     line-height: 21px;
     font-family: OpenSans, Arial, sans-serif;
 }
+
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}

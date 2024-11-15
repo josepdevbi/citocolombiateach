@@ -26,18 +26,20 @@
   
   
   
-  form {
-    display: inline-flex;
-    box-sizing: border-box;
-    padding: 2rem;
-    border-radius: 1rem;
-    background-color: hsl(0, 0%, 100%);
-    border: 4px solid hsl(0, 0%, 90%);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
+  form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-  .full-width {
-    grid-column: span 2;
-  }
+form label{
+    margin-bottom: 10px;
+}
+
+form input, form textarea{
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 16px;
+}

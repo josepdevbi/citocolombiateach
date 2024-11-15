@@ -43,3 +43,10 @@ form input, form textarea{
     padding: 5px;
     font-size: 16px;
 }
+
+main {
+  margin: 0 auto;
+  padding: 4rem 0;
+  width: 90%;
+  max-width: 60rem;
+}

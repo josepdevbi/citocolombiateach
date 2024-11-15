@@ -1,0 +1,42 @@
+p{color: black;
+    text-align:center;
+}
+
+
+
+
+h1{color:#008cff;
+    text-align:center;
+    font-family:verdana;
+    font-size:50px;
+    color:#008cff;
+    text-shadow: 1px  0px 0px black,
+                 0px  1px 0px black,
+                -1px  0px 0px black,
+                 0px -1px 0px black;
+  }
+
+
+
+h2{color:blue;
+text-align: end;
+}
+
+
+.contenedor{
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color: blueviolet;
+}
+
+
+
+#mision{color:#008cff}
+#objetivos{color:#008cff}
+#titulo{color:blue;
+font-size: 40px;
+}
+
+
+.clase1{background-color: #008cff;}

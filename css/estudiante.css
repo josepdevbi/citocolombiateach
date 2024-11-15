@@ -1,0 +1,43 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+    border: 1px solid#ddd;
+    text-align: left;
+
+}
+th{
+    background-color: #f4f4f4;
+    
+}
+
+form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form label{
+    margin-bottom: 10px;
+}
+
+form input, form textarea{
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+h1{color:#008cff;
+    text-align:center;
+    font-family:verdana;
+    font-size:50px;
+    color:#008cff;
+    text-shadow: 1px  0px 0px black,
+                 0px  1px 0px black,
+                -1px  0px 0px black,
+                 0px -1px 0px black;
+  }

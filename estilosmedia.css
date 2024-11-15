@@ -6,14 +6,43 @@
     }
 }
 
-.body-1-text, .body-2-text, .c-user-modal .c-user-modal-content, .c-user-modal .c-user-modal-content input, .c-user-modal header, .c-user-modal header a, .rc-AuthenticationModal-content header, .rc-AuthenticationModal-content header a, .rc-AuthenticationModal .c-user-modal-content, .rc-AuthenticationModal .c-user-modal-content .c-user-modal-error-icon, .rc-AuthenticationModal .c-user-modal-content input, .rc-AuthenticationModal .rc-AuthenticationModal-content header, .rc-AuthenticationModal .rc-AuthenticationModal-content header a, .search-bar .input-area .search-input, body, p, ul.styleguide.dropdown li>a, ul.styleguide.dropdown li>button, ul.styleguide.dropdown li>button.secondary {
-    font-size: 14px;
-    line-height: 21px;
-    font-family: OpenSans, Arial, sans-serif;
-}
-
-form {
-    display: block;
-    margin-top: 0em;
-    unicode-bidi: isolate;
-}
+@font-face {
+    font-family: "handwriting";
+    src:
+      url("fonts/journal-webfont.woff2") format("woff2"),
+      url("fonts/journal-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "typewriter";
+    src:
+      url("fonts/momot___-webfont.woff2") format("woff2"),
+      url("fonts/momot___-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font: 1.3rem sans-serif;
+    padding: 0.5em;
+    margin: 0;
+    background: #222;
+  }
+  
+  form {
+    position: relative;
+    width: 740px;
+    height: 498px;
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    background: #fff url(background.jpg);
+  
+    /* we create our grid */
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10em 1em 1em 1em;
+  }

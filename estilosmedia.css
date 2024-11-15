@@ -24,6 +24,12 @@
     font-style: normal;
   }
   
+  body {
+    margin: 0;
+    background-color: hsl(0, 0%, 98%);
+    color: #1225d5;
+    font: 100% / normal sans-serif;
+  }
   
   
   form{

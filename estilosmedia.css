@@ -24,45 +24,71 @@
     font-style: normal;
   }
   
-  body {
-    margin: 0;
-    background-color: hsl(0, 0%, 98%);
-    color: #1225d5;
-    font: 100% / normal sans-serif;
+  .outer-container {
+    width: calc(100% - 10cm); /* El formulario ocupará un 100% menos 5 cm de cada lado */
+    margin: 5cm auto; /* Agrega 5 cm de margen alrededor */
+    padding: 20px;
+    border: 3px solid #000; /* Borde negro para el recuadro externo */
+    border-radius: 15px; /* Bordes redondeados para el recuadro externo */
+    background-color: #f1f1f1;
   }
-  
-  
-  form{
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-  padding: 2rem;
-  border-radius: 1rem;
-  background-color: hsl(0, 0%, 100%);
-  border: 4px solid hsl(0, 0%, 90%);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
 
+  /* Estilo para el formulario dentro del recuadro */
+  form {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #4CAF50; /* Borde verde alrededor del formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #fff; /* Fondo blanco para el formulario */
+  }
 
-}
+  /* Estilo para el título */
+  h1 {
+    text-align: center;
+    color: #4CAF50;
+  }
 
-form label{
-    margin-bottom: 10px;
-}
+  /* Espaciado entre los elementos */
+  div {
+    margin-bottom: 15px;
+  }
 
-form input, form textarea{
-    margin-bottom: 5px;
-    padding: 5px;
+  /* Estilo para las etiquetas */
+  label {
     font-size: 16px;
-}
+    font-weight: bold;
+    color: #333;
+  }
 
-main {
-  margin: 0 auto;
-  padding: 4rem 0;
-  width: 90%;
-  max-width: 60rem;
-}
+  /* Estilo para los campos de entrada */
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Recuadro gris alrededor de los campos */
+    border-radius: 5px;
+    box-sizing: border-box; /* Para que el padding no afecte el ancho total */
+  }
+
+  /* Estilo para los botones */
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  /* Estilo para el botón de reset */
+  button[type="reset"] {
+    background-color: #f44336;
+  }
+
+  button[type="reset"]:hover {
+    background-color: #e53935;
+  }

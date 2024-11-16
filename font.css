@@ -253,13 +253,7 @@ body {
 
 
 /* Estilos para los cuadros verticales */
-         .cuadros-container {
-            display: flex;
-            gap: 20px; /* Espacio entre los cuadros */
-            justify-content: center; /* Centra los cuadros horizontalmente */
-            margin-top: 10px;
-        }
-
+         
         .cuadro1 {
             width: 80%;
             max-width: 300px;

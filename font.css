@@ -58,6 +58,14 @@
     height: auto;
 }
 
+.item1{
+display: flex;
+}
+
+.item2{
+display: flex;
+}
+
 .project img{
     max-width: 100%;
     height: auto;

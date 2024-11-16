@@ -49,7 +49,7 @@
 }
 
 .project{
-    display: flex;
+    
     width: 300px;
     padding: 10px;
     background: #fff;
@@ -57,11 +57,12 @@
     text-align: center;
     max-width: 100%;
     height: auto;
+    display: flex;
     transform: translate(0px, 50px);
 }
 
 .project2{
-    display: flex;
+    
     width: 300px;
     padding: 10px;
     background: #fff;
@@ -69,6 +70,7 @@
     text-align: center;
     max-width: 100%;
     height: auto;
+    display: flex;
     transform: translate(100px, 50px);
 }
 

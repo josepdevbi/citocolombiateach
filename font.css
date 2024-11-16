@@ -57,6 +57,7 @@
     text-align: center;
     max-width: 100%;
     height: auto;
+    transform: translate(0px, 50px);
 }
 
 .project2{
@@ -68,6 +69,7 @@
     text-align: center;
     max-width: 100%;
     height: auto;
+    transform: translate(100px, 50px);
 }
 
 

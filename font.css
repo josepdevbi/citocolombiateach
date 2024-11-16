@@ -60,10 +60,12 @@
 
 .item1{
 display: flex;
+transform: translate(0px, 0px);
 }
 
 .item2{
 display: flex;
+transform: translate(200px, 0px);
 }
 
 .project img{

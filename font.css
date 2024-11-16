@@ -235,6 +235,16 @@ body {
     margin-right: 10px; /* Espacio entre la imagen y el nombre */
 }
 
+/* Estilos para el ícono de WhatsApp */
+        .whatsapp-icon {
+            position: fixed; /* Hace que el ícono esté fijo en la pantalla */
+            left: 20px; /* Distancia desde el lado izquierdo */
+            bottom: 50px; /* Distancia desde la parte inferior */
+            width: 50px; /* Tamaño del ícono */
+            height: 50px;
+            z-index: 100; /* Asegura que el ícono esté sobre otros elementos */
+        }
+
 /* Nombre del usuario */
 .user-name {
     color: #fff;

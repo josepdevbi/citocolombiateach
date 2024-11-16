@@ -49,6 +49,7 @@
 }
 
 .project{
+    display: flex;
     width: 300px;
     padding: 10px;
     background: #fff;

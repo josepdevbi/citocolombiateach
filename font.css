@@ -58,7 +58,7 @@
     max-width: 100%;
     height: auto;
     display: flex;
-    transform: translate(0px, 50px);
+    
 }
 
 .project2{
@@ -71,7 +71,7 @@
     max-width: 100%;
     height: auto;
     display: flex;
-    transform: translate(100px, 50px);
+ 
 }
 
 

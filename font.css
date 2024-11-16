@@ -250,3 +250,25 @@ body {
     color: #fff;
     font-weight: bold;
 }
+
+
+/* Estilos para los cuadros verticales */
+         .cuadros-container {
+            display: flex;
+            gap: 20px; /* Espacio entre los cuadros */
+            justify-content: center; /* Centra los cuadros horizontalmente */
+            margin-top: 10px;
+        }
+
+        .cuadro1 {
+            width: 80%;
+            max-width: 300px;
+            padding: 80px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            border: 2px solid #000;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transform: translate(0px, 50px);
+        }
